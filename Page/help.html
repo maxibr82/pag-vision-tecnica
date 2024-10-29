@@ -3,89 +3,136 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>visiontecnica</title>
+    <title>Sidebar With Bootstrap</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
 
 </head>
 
 <body>
     <header>
-        <div class="titulo-superior">
-            <h1>Bienvenidos a Nuestro Espacio</h1>
+        <div class="buscar-prueba">
+            <input type="text" placeholder="Buscar">
+            <button><i class="fa fa-search"></i></button>
         </div>
     </header>
-    <main>
-        <div class="main-container">
-            <!-- Menú -->
-            <div class="logo-menu-1">
-                <div class="logo-texto-container">
-                    <a href="../index.html" class="logo">
-                        <img class="logo-menu-vt" src="../asset/imagenes-vt/imagen-index/logo-menu.png" alt="">
-                    </a>
-                    <div class="menu-texto">
-                        <p>Menu</p>
-                        <p>Vision Tecnica</p>
+    <Main>
+        <div class="wrapper">
+            <aside id="sidebar">
+                <div class="d-flex">
+                    <button class="toggle-btn" type="button">
+                        <i class="lni lni-grid-alt"></i>
+                    </button>
+                    <div class="sidebar-logo">
+                        <a href="#">Visión Técnica</a>
                     </div>
                 </div>
-                <nav class="nav-principal">
-                    <ul>
-                        <li class="button-nav-inicio"><img src="../asset/imagenes-vt/iconos-nav/hogar.png" alt=""><a
-                                href="../index.html">Inicio</a></li>
-                        <li class="button-nav-recientes"><img src="../asset/imagenes-vt/iconos-nav/videos-recientes.png"
-                                alt=""><a href="./videos-recientes.html">Videos recientes</a></li>
-                        <li class="button-nav-populares"><img src="../asset/imagenes-vt/iconos-nav/video-populares.png"
-                                alt=""><a href="./videos-populares.html">Videos populares</a></li>
-                        <li class="button-nav-short"><img src="../asset/imagenes-vt/iconos-nav/short.png" alt=""><a
-                                href="./youtube-short.html">Youtube short</a></li>
-                        <li class="button-nav-gameplay"><img src="../asset/imagenes-vt/iconos-nav/game-play.png"
-                                alt=""><a href="./game-play.html">Game play</a></li>
-                        <li class="button-nav-contactos"><img src="../asset/imagenes-vt/iconos-nav/contactos.png"
-                                alt=""><a href="./contactos.html">Contactos</a></li>
-                        <li class="button-nav-help"><img src="../asset/imagenes-vt/iconos-nav/Help.png" alt=""><a
-                                href="#">Help</a></li>
-                    </ul>
-                </nav>
+                <ul class="sidebar-nav">
+                    <li class="sidebar-item">
+                        <a href="../index.html" class="sidebar-link">
+                            <i class="lni lni-user"></i>
+                            <span>Inico</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./videos-populares.html" class="sidebar-link">
+                            <i class="lni lni-agenda"></i>
+                            <span>videos populares</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./videos-recientes.html" class="sidebar-link">
+                            <i class="lni lni-agenda"></i>
+                            <span>videos recientes</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./youtube-short.html" class="sidebar-link">
+                            <i class="lni lni-agenda"></i>
+                            <span>youtube short</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./game-play.html" class="sidebar-link">
+                            <i class="lni lni-popup"></i>
+                            <span>Game play</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./contactos.html" class="sidebar-link">
+                            <i class="lni lni-popup"></i>
+                            <span>Contactos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="lni lni-cog"></i>
+                            <span>Help</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="sidebar-footer">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-exit"></i>
+                        <span>Logout</span>
+                    </a>
+                </div>
+            </aside>
+            <div class="main p-3">
+                <div class="text-center">
+                    <div class="titulo-superior">
+                        <h1>Bienvenidos a Nuestro Espacio</h1>
+                    </div>
+                </div>
+                <section class="grid-main-help">
+                    <section class="help-1">
+                        <h2>Ayuda telefonica</h2>
+                        <img src="../asset/imagenes-vt/imagenes-help/help-telefono.JPG" alt="">
+                    </section>
+                    <section class="help-2">
+                        <h2>
+                            Ayuda por Redes
+                        </h2>
+                        <img src="../asset/imagenes-vt/imagenes-help/help-redes.JPG" alt="">
+                    </section>
+                    <section class="help-3">
+                        <h2>
+                            Ayuda via Mail
+                        </h2>
+                        <img src="../asset/imagenes-vt/imagenes-help/help-mail.JPG" alt="">
+                    </section>
+                    <section class="help-4">
+                        <p>
+                            En esta seccion encontraras toda la informacion que necesitas para poder ayudarte con
+                            tus dudas
+                        </p>
+                    </section>
+                </section>
             </div>
-            <section class="grid-main-help">
-                <section class="help-1">
-                    <h2>Ayuda telefonica</h2>
-                    <img src="../asset/imagenes-vt/imagenes-help/help-telefono.JPG" alt="">
-                </section>
-                <section class="help-2">
-                    <h2>
-                        Ayuda por Redes
-                    </h2>
-                    <img src="../asset/imagenes-vt/imagenes-help/help-redes.JPG" alt="">
-                </section>
-                <section class="help-3">
-                    <h2>
-                        Ayuda via Mail
-                    </h2>
-                    <img src="../asset/imagenes-vt/imagenes-help/help-mail.JPG" alt="">
-                </section>
-                <section class="help-4">
-                    <p>
-                        En esta seccion encontraras toda la informacion que necesitas para poder ayudarte con tus dudas
-                    </p>
-                </section>
-            </section>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="footer-copyright">
-            <h4>copyright​ © 2024</h4>
-            <h4>Visión Técnica todos los derechos reservados</h4>
-        </div>
-        <div class="footer-redes">
-            <a href="#" i class="fab fa-facebook"></i></a>
-            <a href="#" i class="fab fa-instagram"></i></a>
-            <a href="#" i class="fab fa-tiktok"></i></a>
-            <a href="#" i class="fab fa-youtube"></i></a>
-        </div>
-    </footer>
-</body>
 
+        </div>
+        <footer class="footer">
+            <div class="footer-copyright">
+                <h4>copyright​ © 2024</h4>
+                <h4>Visión Técnica todos los derechos reservados</h4>
+            </div>
+            <div class="footer-redes">
+                <a href="#" i class="fab fa-facebook"></i></a>
+                <a href="#" i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@vision_tecnica?_t=8q770r55MNK&_r=1" target="_blank" i
+                    class="fab fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/channel/UCyjNPxN2wbmjpG9__b9jQiw" target="_blank" i
+                    class="fab fa-youtube"></i></a>
+            </div>
+    </Main>
+    </footer>
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="../script.js"></script>
+</body>
 
 </html>
