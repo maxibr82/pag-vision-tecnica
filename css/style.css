@@ -795,7 +795,7 @@ margin-top: 10px;
 
     .grid-main-help {
         display: grid;
-        width: 100%;
+        width: 90%;
         height: auto;
         grid-template-columns: 1fr;
         grid-template-rows: repeat 1fr 1fr 1fr 2fr;
@@ -901,7 +901,7 @@ margin-top: 10px;
 
     .grid-main-help {
         display: grid;
-        width: 50%;
+        width: 97%;
         height: auto;
         margin: auto;
         grid-template-columns: 1fr;
