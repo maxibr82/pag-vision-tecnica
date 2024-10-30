@@ -3,137 +3,129 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar With Bootstrap</title>
+    <title>visiontecnica</title>
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
-
 </head>
 
 <body>
     <header>
-        <div class="buscar-prueba">
-            <input type="text" placeholder="Buscar">
-            <button><i class="fa fa-search"></i></button>
+        <div class="titulo-superior">
+            <h1>Bienvenidos a Nuestro Espacio</h1>
         </div>
     </header>
-    <Main>
-        <div class="wrapper">
-            <aside id="sidebar">
-                <div class="d-flex">
-                    <button class="toggle-btn" type="button">
-                        <i class="lni lni-grid-alt"></i>
-                    </button>
-                    <div class="sidebar-logo">
-                        <a href="#">Visión Técnica</a>
-                    </div>
-                </div>
-                <ul class="sidebar-nav">
-                    <li class="sidebar-item">
-                        <a href="../index.html" class="sidebar-link">
-                            <i class="lni lni-user"></i>
-                            <span>Inico</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">
-                            <i class="lni lni-agenda"></i>
-                            <span>videos populares</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./videos-recientes.html" class="sidebar-link">
-                            <i class="lni lni-agenda"></i>
-                            <span>videos recientes</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./youtube-short.html" class="sidebar-link">
-                            <i class="lni lni-agenda"></i>
-                            <span>youtube short</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./game-play.html" class="sidebar-link">
-                            <i class="lni lni-popup"></i>
-                            <span>Game play</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./contactos.html" class="sidebar-link">
-                            <i class="lni lni-popup"></i>
-                            <span>Contactos</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./help.html" class="sidebar-link">
-                            <i class="lni lni-cog"></i>
-                            <span>Help</span>
-                        </a>
-                    </li>
-                </ul>
-                <div class="sidebar-footer">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-exit"></i>
-                        <span>Logout</span>
-                    </a>
-                </div>
-            </aside>
-            <div class="main p-3">
-                <div class="text-center">
-                    <div class="titulo-superior">
-                        <h1>Bienvenidos a Nuestro Espacio</h1>
-                    </div>
-                </div>
-                <!-- Galería de videos -->
-                <section>
-                    <div class="button-container">
-                        <button class="button-enlaces"
-                            onclick="window.open('https://www.youtube.com/c/VisionTécnica/videos?view=0&sort=p&shelf_id=4', '_blank');">Videos
-                            Populares
+    <main>
+        <div class="main-container">
+            <!-- Menú -->
+            <div class="wrapper">
+                <aside id="sidebar">
+                    <div class="d-flex">
+                        <button class="toggle-btn" type="button">
+                            <i class="lni lni-grid-alt"></i>
                         </button>
+                        <div class="sidebar-logo">
+                            <a href="#">Visión Técnica</a>
+                        </div>
                     </div>
-                    <section class="video-gallery">
-                        <div class="video-gallery2">
-                            <a href="https://www.youtube.com/watch?v=pWDn0CbTaUA&t=1s" target="_blank">
-                                <img src="../asset/imagenes-vt/imagenes-populares/populares-1.png"
-                                    alt="Descripción de la imagen">
+                    <ul class="sidebar-nav">
+                        <li class="sidebar-item">
+                            <a href="../index.html" class="sidebar-link">
+                                <i class="lni lni-user"></i>
+                                <span>Inico</span>
                             </a>
-                            <a href="https://www.youtube.com/watch?v=Spbb-L8gkpY&t=17s" target="_blank">
-                                <img src="../asset/imagenes-vt/imagenes-populares/populares-2.png"
-                                    alt="Descripción de la imagen">
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">
+                                <i class="lni lni-agenda"></i>
+                                <span>videos populares</span>
                             </a>
-                        </div>
-                        <div class="video-gallery2">
-                            <a href="https://www.youtube.com/watch?v=i6LznQIST4U&t=1s" target="_blank">
-                                <img src="../asset/imagenes-vt/imagenes-populares/populares-3.jpg"
-                                    alt="Descripción de la imagen">
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./videos-recientes.html" class="sidebar-link">
+                                <i class="lni lni-agenda"></i>
+                                <span>videos recientes</span>
                             </a>
-                            <a href="https://www.youtube.com/watch?v=Pp1--nGMu0o&t=342s" target="_blank">
-                                <img src="../asset/imagenes-vt/imagenes-populares/populares-4.jpg"
-                                    alt="Descripción de la imagen">
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./youtube-short.html" class="sidebar-link">
+                                <i class="lni lni-agenda"></i>
+                                <span>youtube short</span>
                             </a>
-                        </div>
-                        <div class="video-gallery2">
-                            <a href="https://www.youtube.com/watch?v=K2QMo3MG0Bg&t=5s" target="_blank">
-                                <img src="../asset/imagenes-vt/imagenes-populares/populares-5.png"
-                                    alt="Descripción de la imagen">
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./game-play.html" class="sidebar-link">
+                                <i class="lni lni-popup"></i>
+                                <span>Game play</span>
                             </a>
-                            <a href="https://www.youtube.com/watch?v=f_K8V9-4t88&t=114s" target="_blank">
-                                <img src="../asset/imagenes-vt/imagenes-populares/populares-6.png"
-                                    alt="Descripción de la imagen">
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./contactos.html" class="sidebar-link">
+                                <i class="lni lni-popup"></i>
+                                <span>Contactos</span>
                             </a>
-                        </div>
-                    </section>
-                </section>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./help.html" class="sidebar-link">
+                                <i class="lni lni-cog"></i>
+                                <span>Help</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="sidebar-footer">
+                        <a href="#" class="sidebar-link">
+                            <i class="lni lni-exit"></i>
+                            <span>Logout</span>
+                        </a>
+                    </div>
+                </aside>
             </div>
-
+            <!-- Galería de videos -->
+            <section>
+                <div class="button-container">
+                    <button class="button-enlaces"
+                        onclick="window.open('https://www.youtube.com/c/VisionTécnica/videos?view=0&sort=p&shelf_id=4', '_blank');">Videos
+                        Populares
+                    </button>
+                </div>
+                <section class="video-gallery">
+                    <div class="video-gallery2">
+                        <a href="https://www.youtube.com/watch?v=pWDn0CbTaUA&t=1s" target="_blank">
+                            <img src="../asset/imagenes-vt/imagenes-populares/populares-1.png"
+                                alt="Descripción de la imagen">
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=Spbb-L8gkpY&t=17s" target="_blank">
+                            <img src="../asset/imagenes-vt/imagenes-populares/populares-2.png"
+                                alt="Descripción de la imagen">
+                        </a>
+                    </div>
+                    <div class="video-gallery2">
+                        <a href="https://www.youtube.com/watch?v=i6LznQIST4U&t=1s" target="_blank">
+                            <img src="../asset/imagenes-vt/imagenes-populares/populares-3.jpg"
+                                alt="Descripción de la imagen">
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=Pp1--nGMu0o&t=342s" target="_blank">
+                            <img src="../asset/imagenes-vt/imagenes-populares/populares-4.jpg"
+                                alt="Descripción de la imagen">
+                        </a>
+                    </div>
+                    <div class="video-gallery2">
+                        <a href="https://www.youtube.com/watch?v=K2QMo3MG0Bg&t=5s" target="_blank">
+                            <img src="../asset/imagenes-vt/imagenes-populares/populares-5.png"
+                                alt="Descripción de la imagen">
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=f_K8V9-4t88&t=114s" target="_blank">
+                            <img src="../asset/imagenes-vt/imagenes-populares/populares-6.png"
+                                alt="Descripción de la imagen">
+                        </a>
+                    </div>
+                </section>
+            </section>
         </div>
-    </Main>
+    </main>
     <footer class="footer">
         <div class="footer-copyright">
             <h4>copyright​ © 2024</h4>
@@ -142,12 +134,9 @@
         <div class="footer-redes">
             <a href="#" i class="fab fa-facebook"></i></a>
             <a href="#" i class="fab fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/@vision_tecnica?_t=8q770r55MNK&_r=1" target="_blank" i
-                class="fab fa-tiktok"></i></a>
-            <a href="https://www.youtube.com/channel/UCyjNPxN2wbmjpG9__b9jQiw" target="_blank" i
-                class="fab fa-youtube"></i></a>
+            <a href="#" i class="fab fa-tiktok"></i></a>
+            <a href="#" i class="fab fa-youtube"></i></a>
         </div>
-
     </footer>
     <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="../script.js"></script>
