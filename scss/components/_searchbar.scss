@@ -1,0 +1,38 @@
+/* css de la barra de busqueda */
+
+.buscar-prueba {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 13px;
+    padding: 10px;
+    position: absolute;
+    width: auto;
+    right: 0;
+    border-radius: 5px;
+
+
+}
+
+.buscar-prueba input {
+    border: none;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.buscar-prueba button {
+    background-color: #faf9f9db;
+    border: none;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}

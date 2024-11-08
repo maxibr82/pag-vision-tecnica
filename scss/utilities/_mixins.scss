@@ -1,0 +1,32 @@
+
+// Mixin para la galería de videos principal
+@mixin video-gallery($flex-direction: column, $padding: 6.25rem, $gap: 20px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $padding;
+    width: 100%;
+    gap: $gap;
+    flex-direction: $flex-direction;
+}
+
+// Mixin para los videos dentro de la galería
+@mixin video-gallery-img($max-width: 600px, $gap: 10px, $border-radius: 10px) {
+    display: flex;
+    width: 100%;
+    max-width: $max-width;
+    gap: $gap;
+    border-radius: $border-radius;
+}
+
+// Mixin para la galería secundaria
+@mixin video-gallery2($padding: 10px, $gap: 20px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $padding;
+    width: 100%;
+    gap: $gap;
+}
+
+

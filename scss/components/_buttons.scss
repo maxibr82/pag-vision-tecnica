@@ -1,0 +1,36 @@
+/*  css de los botones de enlaces */
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+
+
+}
+
+.button-enlaces {
+    background-color: #faf9f9db;
+    border: none;
+    color: rgb(2, 2, 2);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+.button-enlaces1{
+    @extend .button-enlaces
+}
+
+.buscar-prueba input {
+    padding: 1.8px 3px;
+    width: 150px;
+    border-radius: 5px;
+}

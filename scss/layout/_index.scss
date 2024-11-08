@@ -1,0 +1,28 @@
+.main-container-index {
+    display: flex;
+    width: 100%;
+
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+
+
+}
+
+
+.imagenes-index {
+    padding: 14px;
+    margin-top: 30px;
+}
+
+.imagenes-index img {
+    margin: 9px;
+    width: 168px;
+    margin-bottom: 2.7px;
+
+}

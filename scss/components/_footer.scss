@@ -1,0 +1,33 @@
+/* css del footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #faf9f9db;
+    /* Asegúrate de que tenga un color de fondo */
+}
+
+
+.footer-copyright h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: map-get($colores, "primario");
+    margin: 5px;
+    padding: 5px
+}
+
+.footer-redes a {
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.footer-redes a:hover {
+    color: #6806a0;
+    padding-left: 6px;
+
+}

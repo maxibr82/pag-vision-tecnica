@@ -1,0 +1,12 @@
+// Aplicación de los mixins en los selectores
+.video-gallery {
+    @include video-gallery();
+}
+
+.video-gallery img {
+    @include video-gallery-img();
+}
+
+.video-gallery2 {
+    @include video-gallery2();
+}

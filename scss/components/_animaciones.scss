@@ -1,0 +1,93 @@
+/* css de los titulos */
+
+.titulo-superior {
+    display: flex;
+    position: center;
+    justify-content: center;
+    color: map-get($colores, "primario");
+    border: 10px;
+    margin: 20px 60px 10px 10px;
+}
+
+/*  De las imagenes del index */
+
+.main-container-index {
+    display: flex;
+    width: 100%;
+
+
+}
+
+
+.imagenes-index {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.imagenes-index img {
+    margin: 30px;
+    width: 240px;
+    margin-bottom: 9px;
+    transform: rotate(-40deg);
+    animation: shake 3.5s infinite;
+}
+
+
+.titulo-superior h1 {
+
+    animation: moverSombra 3s infinite;
+
+}
+
+@keyframes moverSombra {
+    0% {
+        text-shadow: 2px 2px 5px #aaaaaa;
+    }
+
+    25% {
+        text-shadow: 5px 5px 10px #888888;
+    }
+
+    50% {
+        text-shadow: 10px 10px 20px #666666;
+    }
+
+    75% {
+        text-shadow: 5px 5px 10px #888888;
+    }
+
+    100% {
+        text-shadow: 2px 2px 5px #aaaaaa;
+    }
+}
+
+/*  De las imagenes del index */
+
+@keyframes shake {
+    0% {
+        transform: rotate(-40deg) translateX(0);
+    }
+
+    25% {
+        transform: rotate(-40deg) translateX(-10px);
+    }
+
+    50% {
+        transform: rotate(-40deg) translateX(10px);
+    }
+
+    75% {
+        transform: rotate(-40deg) translateX(-10px);
+    }
+
+    100% {
+        transform: rotate(-40deg) translateX(0);
+    }
+}
+
+
+

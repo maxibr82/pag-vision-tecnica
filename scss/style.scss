@@ -1,0 +1,39 @@
+
+
+// Estilos base
+@import './utilities/maps';
+@import './utilities/mixins';
+@import './base/reset';
+@import './base/body';
+
+
+
+// Componentes
+@import './components/navbar';
+@import './components/footer';
+@import './components/buttons';
+@import './components/searchbar';
+@import './components/sidebar';
+@import './components/videos-gallery';
+@import './utilities/mixins';
+@import './components/animaciones';
+@import './components/help';
+@import './components/short';
+@import './components/contactos';
+
+
+
+// Layout
+@import './layout/index';
+
+
+// Media queries
+@import './layout/media/media1024';
+@import './layout/media/media768';
+@import './layout/media/media600';
+
+
+
+
+
+
