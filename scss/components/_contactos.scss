@@ -1,43 +1,26 @@
-/* css del contacto */
+
+$contact-bg-color: #faf9f9db;
+$contact-gap: 20px;
+$contact-padding: 70px;
+$contact-max-width: 800px;
+$contact-border-radius: 10px;
+$redes-gap: 10px;
 
 .main-contactos {
     display: flex;
     flex-direction: column;
-    background-color: #faf9f9db;
-    gap: 20px;
+    background-color: $contact-bg-color;
+    gap: $contact-gap;
     align-items: flex-start;
     justify-content: center;
     margin: auto;
-    padding: 70px;
-    max-width: 800px;
-    border-radius: 10px;
-
-
+    padding: $contact-padding;
+    max-width: $contact-max-width;
+    border-radius: $contact-border-radius;
 }
 
 .redes-sociales {
     display: flex;
-    gap: 10px;
-    align-items: center;
-}/* css del contacto */
-
-.main-contactos {
-    display: flex;
-    flex-direction: column;
-    background-color: #faf9f9db;
-    gap: 20px;
-    align-items: flex-start;
-    justify-content: center;
-    margin: auto;
-    padding: 70px;
-    max-width: 800px;
-    border-radius: 10px;
-
-
-}
-
-.redes-sociales {
-    display: flex;
-    gap: 10px;
+    gap: $redes-gap;
     align-items: center;
 }

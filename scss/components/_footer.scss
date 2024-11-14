@@ -1,5 +1,11 @@
 /* css del footer */
 
+$footer-background-color: #faf9f9db;
+$footer-hover-color: #6806a0;
+$footer-font-size: 13px;
+$footer-padding: 10px;
+
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -7,27 +13,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: #faf9f9db;
-    /* Asegúrate de que tenga un color de fondo */
-}
+    padding: $footer-padding;
+    background-color: $footer-background-color;
 
+    &-copyright {
+        h4 {
+            font-family: "Roboto", sans-serif;
+            font-size: $footer-font-size;
+            color: map-get($colores, "primario");
+            margin: 5px;
+            padding: 5px;
+        }
+    }
 
-.footer-copyright h4 {
-    font-family: "Roboto", sans-serif;
-    font-size: 13px;
-    color: map-get($colores, "primario");
-    margin: 5px;
-    padding: 5px
-}
-
-.footer-redes a {
-    text-decoration: none;
-    transition: all 1s ease;
-}
-
-.footer-redes a:hover {
-    color: #6806a0;
-    padding-left: 6px;
-
+    &-redes {
+        a {
+            text-decoration: none;
+            transition: all 1s ease;
+            &:hover {
+                color: $footer-hover-color;
+                padding-left: 6px;
+            }
+        }
+    }
 }

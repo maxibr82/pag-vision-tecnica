@@ -1,34 +1,38 @@
-/* css del short */
 
-/* Contenedor principal que agrupa videos y texto */
+$short-gap: 30px;
+$short-padding: 20px;
+$video-width: 250px;
+$video-padding: 10px;
+$video-border-radius: 10px;
+$texto-bg-color: #faf9f9db;
+$texto-color: #000000;
+$texto-padding: 40px;
+$texto-border-radius: 20px;
 
 .short-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: $short-gap;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: $short-padding;
 }
 
-/* Contenedor de videos */
 .video-short {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: $short-gap;
     justify-content: center;
     flex-wrap: wrap;
+
+    video {
+        width: $video-width;
+        height: auto;
+        padding: $video-padding;
+        border-radius: $video-border-radius;
+    }
 }
 
-/* Estilos para los videos */
-.video-short video {
-    width: 250px;
-    height: auto;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-/* Estilos para el texto */
 .texto-short {
     display: flex;
     flex-direction: column;
@@ -36,61 +40,10 @@
     height: auto;
     align-items: center;
     justify-content: center;
-    background-color: #faf9f9db;
-    color: #000000;
-    padding: 40px;
-    border-radius: 20px;
+    background-color: $texto-bg-color;
+    color: $texto-color;
+    padding: $texto-padding;
+    border-radius: $texto-border-radius;
     flex-grow: 1;
-    /* El texto crecerá para llenar el espacio disponible */
     box-sizing: border-box;
-    /* Asegura que el padding no rompa el layout */
 }
-
-/* css del short */
-
-/* Contenedor principal que agrupa videos y texto */
-.short-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-/* Contenedor de videos */
-.video-short {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-/* Estilos para los videos */
-.video-short video {
-    width: 250px;
-    height: auto;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-/* Estilos para el texto */
-.texto-short {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    background-color: #faf9f9db;
-    color: #000000;
-    padding: 40px;
-    border-radius: 20px;
-    flex-grow: 1;
-    /* El texto crecerá para llenar el espacio disponible */
-    box-sizing: border-box;
-    /* Asegura que el padding no rompa el layout */
-}
-
-

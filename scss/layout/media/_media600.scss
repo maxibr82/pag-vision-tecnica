@@ -4,8 +4,9 @@
 
     .titulo-superior h1 {
         display: flex;
-        margin-left: 130px;
+
         font-size: 13px;
+        margin-left: 30%;
 
     }
 
@@ -25,9 +26,6 @@
         padding: 1.2px 2px;
         border-radius: 5px;
     }
-
-
-
 
     .video-gallery {
         flex-direction: column;
@@ -60,7 +58,7 @@
         justify-content: center;
         margin: auto;
         padding: 35px;
-        max-width: 200px;
+        max-width: 250px;
         border-radius: 5px;
     }
 
@@ -91,7 +89,6 @@
 
     }
 
-    /* Contenedor de videos */
     .video-short {
         display: flex;
         flex-direction: column;
@@ -100,7 +97,6 @@
         flex-wrap: wrap;
     }
 
-    /* Estilos para los videos */
     .video-short video {
         width: 160px;
         height: auto;
@@ -122,7 +118,6 @@
         flex-direction: column;
         max-width: 80%;
         align-items: center;
-        /* Centra el texto horizontalmente */
         justify-content: center;
         background-color: #faf9f9db;
         color: #000000;
@@ -136,12 +131,36 @@
         flex-direction: column;
         max-width: 80%;
         align-items: center;
-        /* Centra el texto horizontalmente */
         justify-content: center;
         background-color: #faf9f9db;
         color: #000000;
         padding: 20px;
         border-radius: 20px;
         box-sizing: border-box;
+    }
+
+    .contenedor-video4 {
+        padding: 10px;
+        gap: 10px; 
+    }
+
+    .container {
+        width: 100%; 
+        margin-bottom: 15px; 
+    }
+
+    .content h3 {
+        font-size: 20px; 
+        padding: 15px 5px;
+    }
+
+    .content p {
+        padding: 15px 10px 10px 10px;
+    }
+
+    .icons {
+        font-size: 20px; 
+        padding: 0 0 10px 0; 
+        text-align: center; 
     }
 }

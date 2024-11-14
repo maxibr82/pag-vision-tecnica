@@ -1,38 +1,43 @@
-/* css de la barra de busqueda */
+
+$buscar-bg-color: #faf9f9db;
+$buscar-border-radius: 5px;
+$buscar-input-border-radius: 8px;
+$buscar-margin: 13px;
+$buscar-padding: 10px;
+$buscar-button-padding: 6px 10px;
+
 
 .buscar-prueba {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    margin: 13px;
-    padding: 10px;
+    margin: $buscar-margin;
+    padding: $buscar-padding;
     position: absolute;
     width: auto;
     right: 0;
-    border-radius: 5px;
+    border-radius: $buscar-border-radius;
 
+    input {
+        border: none;
+        padding: $buscar-button-padding;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: $buscar-input-border-radius;
+    }
 
-}
-
-.buscar-prueba input {
-    border: none;
-    padding: 6px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-}
-
-.buscar-prueba button {
-    background-color: #faf9f9db;
-    border: none;
-    padding: 6px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
+    button {
+        background-color: $buscar-bg-color;
+        border: none;
+        padding: $buscar-button-padding;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: $buscar-input-border-radius;
+    }
 }
