@@ -5,8 +5,8 @@
     .titulo-superior h1 {
         display: flex;
 
-        font-size: 16px;
-        margin-left: 15%;
+        font-size: 13px;
+        margin-left: 30%;
 
     }
 
@@ -50,7 +50,7 @@
 
     .main-contactos {
         display: flex;
-        font-size: 16px;
+        font-size: 10px;
         flex-direction: column;
         background-color: #faf9f9db;
         gap: 10px;
@@ -63,7 +63,7 @@
     }
 
     .redes-sociales {
-        font-size: 9px;
+        font-size: 6px;
         display: flex;
         gap: 5px;
         align-items: center;
@@ -113,7 +113,18 @@
         padding: 20px;
     }
 
-
+    .texto-short {
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        align-items: center;
+        justify-content: center;
+        background-color: #faf9f9db;
+        color: #000000;
+        padding: 20px;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
 
     .texto-short {
         display: flex;
@@ -126,7 +137,6 @@
         padding: 20px;
         border-radius: 20px;
         box-sizing: border-box;
-        font-size: 16px;
     }
 
     .contenedor-video4 {
