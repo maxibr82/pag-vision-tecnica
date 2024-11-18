@@ -97,6 +97,7 @@ a.sidebar-link {
   font-size: 0.9rem;
   white-space: nowrap;
   border-left: 3px solid transparent;
+  transition: all 0.3s ease-in-out; /* Agrega una transición suave */
 }
 
 .sidebar-link i {
@@ -850,7 +851,7 @@ a.sidebar-link:hover {
     padding: 10px;
     border-radius: 20px;
     flex-grow: 1;
-    font-size: 10px;
+    font-size: 16px;
   }
   .main-contactos {
     display: flex;
@@ -903,7 +904,7 @@ a.sidebar-link:hover {
   }
   .main-contactos {
     display: flex;
-    font-size: 10px;
+    font-size: 16px;
     flex-direction: column;
     background-color: rgba(250, 249, 249, 0.8588235294);
     gap: 10px;
@@ -969,6 +970,7 @@ a.sidebar-link:hover {
     display: flex;
     flex-direction: column;
     max-width: 80%;
+    font-size: 16px;
     align-items: center;
     justify-content: center;
     background-color: rgba(250, 249, 249, 0.8588235294);
