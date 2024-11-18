@@ -179,7 +179,6 @@ a.sidebar-link:hover {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: rgba(250, 249, 249, 0.8588235294);
 }
 .footer-copyright h4 {
   font-family: "Roboto", sans-serif;
@@ -916,7 +915,7 @@ a.sidebar-link:hover {
     border-radius: 5px;
   }
   .redes-sociales {
-    font-size: 6px;
+    font-size: 9px;
     display: flex;
     gap: 5px;
     align-items: center;

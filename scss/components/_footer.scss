@@ -1,6 +1,5 @@
 /* css del footer */
 
-$footer-background-color: #faf9f9db;
 $footer-hover-color: #6806a0;
 $footer-font-size: 13px;
 $footer-padding: 10px;
@@ -14,7 +13,6 @@ $footer-padding: 10px;
     justify-content: space-between;
     align-items: center;
     padding: $footer-padding;
-    background-color: $footer-background-color;
 
     &-copyright {
         h4 {
